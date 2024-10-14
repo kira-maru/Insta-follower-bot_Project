@@ -17,7 +17,7 @@ chrome_options.add_experimental_option("detach", True)
 
 
 class FollowBot:
-    """Bot which opens logs in to the provided instagram account, opens chosen account's followers tab and
+    """Bot which opens instagram home page and logs in to the provided instagram account, opens chosen account's followers tab and
      follows account's followers"""
 
     def __init__(self):
